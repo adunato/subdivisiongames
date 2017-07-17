@@ -1,51 +1,43 @@
 #subdivision_logo .logo-background-top {
     background: #EF4F2B;
+    min-height: 600px;
     min-height: 49vh;
-    align-items: flex-end;
     display: flex;
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex: 1;
     margin: 0;
     padding: 0;
 }
 
 #subdivision_logo .logo-background-top .svg-top {
     max-width: 1344px;
-    flex-grow: 1;
-    flex-shrink: 1;
-    margin-bottom: -8px;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
+    flex: 1;
+    margin: auto auto -2px;
 }
 
 #subdivision_logo .logo-background-middle {
     z-index: 1;
-    background: white;
+    min-height: 20px;
     min-height: 2vh;
-    background-position: center;
+    background: white center;
     background-size: cover;
     align-items: center;
     display: flex;
-    flex-grow: 1;
-    flex-shrink: 0;
+    flex: 1;
 }
 
 #subdivision_logo .logo-background-bottom {
     background: #26A9E0;
+    min-height: 600px;
     min-height: 49vh;
-    align-items: flex-start;
     display: flex;
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex: 1;
     margin: 0;
     padding: 0;
 }
 
 #subdivision_logo .logo-background-bottom .svg-bottom {
     max-width: 1344px;
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex: 1;
     margin-top: -2px;
     margin-left: auto;
     margin-right: auto;
